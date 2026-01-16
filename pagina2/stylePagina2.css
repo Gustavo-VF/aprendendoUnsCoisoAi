@@ -57,19 +57,37 @@ body {
 }
 
 .sorteado img {
-    width: 200px;
+    width: 300px;
 }
 
 .inputText {
     display: none;
+
 }
 
 
-#inputText input {
+#input1 {
     border: 3px solid gold;
     width: 696px;
     height: 5px;
     padding: 20px;
     font-size: 2.7rem;
+    border-radius: 20px;
+
+}
+
+#sugestao {
+    background-color: burlywood;
+    padding-left: 0px;
+
+}
+
+.sugesta li {
+    list-style: none;
+    border: 2px solid seagreen;
+    font-size: 2rem;
+    padding: 5px;
+    padding-left: 20px;
+    cursor: pointer;
 
 }
