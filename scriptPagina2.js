@@ -30,7 +30,7 @@ btSortear.onclick = () => {
     input1.value = '';
     sugestao.innerHTML = '';
 
-    btSortear.style.display = "none";
+   
 }
 
 
@@ -231,4 +231,5 @@ function addHistorico(poke) {
     divPoke.appendChild(typesP);
     divPoke.appendChild(generationp);
     historico.prepend(divPoke);
+
 }
